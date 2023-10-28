@@ -22,6 +22,10 @@ function BreweryDetails() {
 			})
 	}, [id])
 
+	if (!brewery) {
+		return <div>Loading...</div>
+	}
+
 	return (
 		<div>
 			<h2>{brewery.name}</h2>
