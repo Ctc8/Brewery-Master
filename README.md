@@ -4,13 +4,13 @@ Submitted by: Collin Chuang
 
 This web app: Data dashboard
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [X] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
 - [X] **Clicking on an item in the list view displays more details about it**
 - [X] **Clicking on an item has a direct, unique link to that item's detail view page**
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://imgur.com/a/KWuxunh
+https://imgur.com/a/E6Hv3Do
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
@@ -40,7 +40,7 @@ GIF created with Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
-Routing in general was difficult since I struggled with fetching API calls again in the separate component. Also didn't get a chance to look at the rechart feature.
+Routing in general was difficult since I struggled with fetching API calls again in the separate component.
 ## License
 
     Copyright 2023 Collin Chuang
