@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import BreweryCount from "./BreweryCount"
+import Charts from "./Charts"
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
 import axios from "axios"
 
@@ -79,6 +80,9 @@ const Breweries = () => {
 					onChange={handleInputChange}
 				/>
 			</div>
+			<div className="charts">
+				<Charts/>
+			</div>
 			<div className="filter-container">
 				<button onClick={filterCali} className="filter-button">
 					Filter for Breweries in California
@@ -96,15 +100,16 @@ const Breweries = () => {
 
 			<h2 className="header">The Brewery List</h2>
 
-			<ul className="list-of-items">
+			<ul>
 				{filteredBreweries.map(brewery => (
 					<li key={brewery.id}>
-						<Link to={`/breweries/${brewery.id}`}>
+						<Link className="brewery-link" to={`/breweries/${brewery.id}`}>
 							Name of Brewery: {brewery.name}
 						</Link>
 					</li>
 				))}
 			</ul>
+
 		</div>
 	)
 }

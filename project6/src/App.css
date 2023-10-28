@@ -50,7 +50,16 @@ li {
     margin: 5px;
 }
 
-.list-of-items {
+.brewery-link{
     text-decoration: none;
-    color: aqua;
+    color: rgb(0, 76, 255);    
+}
+
+li {
+    margin: 10px 0;
+}
+
+.charts {
+    display: flex;
+    justify-content: center;
 }

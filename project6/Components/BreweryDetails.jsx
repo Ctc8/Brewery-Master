@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const ACCESS_KEY = import.meta.env.ACCESS_KEY
 
-function BreweryDetails() {
+export default function BreweryDetails() {
 	const { id } = useParams()
 	const [brewery, setBrewery] = useState(null)
 
@@ -45,4 +45,4 @@ function BreweryDetails() {
 	)
 }
 
-export default BreweryDetails
+
