@@ -22,10 +22,6 @@ function BreweryDetails() {
 			})
 	}, [id])
 
-	if (!brewery) {
-		return <div>Loading...</div>
-	}
-
 	return (
 		<div>
 			<h2>{brewery.name}</h2>
@@ -34,8 +30,13 @@ function BreweryDetails() {
 				Location: {brewery.city}, {brewery.state} {brewery.postal_code}
 			</p>
 			<p>Phone number: {brewery.phone}</p>
-			<p>Website URL: {brewery.website_url}</p>
-			<Link to="/">Back to list</Link>
+			<p>
+				Website URL:
+				<a href={brewery.website_url} target="_blank" rel="noopener noreferrer">
+					{brewery.website_url}
+				</a>
+			</p>
+			<Link to="/">Back to main list</Link>
 		</div>
 	)
 }
