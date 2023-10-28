@@ -40,7 +40,7 @@ GIF created with Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
-Routing in general was difficult since I struggled with fetching API calls again in the separate component.
+Routing in general was difficult since I struggled with fetching API calls again in the separate component. Also didn't get a chance to look at the rechart feature.
 ## License
 
     Copyright 2023 Collin Chuang
